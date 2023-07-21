@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1",
+    "cors": "^2.8.5",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
